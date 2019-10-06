@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+      <TargetFramework>netstandard2.0</TargetFramework>
+      <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+      <AssemblyVersion>2.2.1.0</AssemblyVersion>
+      <Version>2.2.1</Version>
+      <PackageProjectUrl>https://github.com/mantasaudickas/ews-managed-api</PackageProjectUrl>
+      <PackageLicenseFile>license.txt</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+      <PackageReference Include="System.DirectoryServices" Version="4.6.0" />
+      <PackageReference Include="System.Security.Cryptography.Xml" Version="4.6.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <None Include="license.txt" Link="license\LICENSE">
+          <Pack>true</Pack>
+          <PackagePath></PackagePath>
+      </None>
+  </ItemGroup>
+
+</Project>

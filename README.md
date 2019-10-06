@@ -1,3 +1,6 @@
+Project adapted to support .NET Standard 2.0
+
+
 # Getting Started with the EWS Managed API
 [![Gitter](https://badges.gitter.im/JoinChat.svg)](https://gitter.im/OfficeDev/ews-managed-api?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 

@@ -26,10 +26,6 @@
 namespace Microsoft.Exchange.WebServices.Data
 {
     using System;
-    using System.Collections.ObjectModel;
-    using System.Drawing;
-    using System.IO;
-    using Microsoft.Exchange.WebServices.Data.Enumerations;
 
     /// <summary>
     /// Represents the results of a GetUserPhoto operation.
@@ -68,6 +64,7 @@ namespace Microsoft.Exchange.WebServices.Data
         /// </summary>
         public GetUserPhotoStatus Status { get; internal set; }
 
+/*
         /// <summary>
         /// Creates an image from the photo data
         /// </summary>
@@ -87,5 +84,6 @@ namespace Microsoft.Exchange.WebServices.Data
 
             return img;
         }
+*/
     }
 }
